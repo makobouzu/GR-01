@@ -2,8 +2,8 @@
 #include <ArduinoOSCWiFi.h>
 #include "FastLED.h"
 
-const String SSID = "SPWH_L12_bba3d6";
-const String PASSWORD = "090a1643b0a54";
+const String SSID = "xxxxxxxx";
+const String PASSWORD = "xxxx";
 const int PORT = 8888;
 
 #define Neopixel_PIN 21
