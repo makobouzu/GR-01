@@ -2,8 +2,8 @@
 The motor control and thermal printer control system used in the "Show all the back side of the beach house".
   
 ![max/msp](img/screen_0.png "Control system screenshot") 
-<img height="160" alt="Motor control system screenshot" src="img/screen_1.png">
-<img height="160" alt="thermal printer system screenshot" src="img/screen_2.png">  
+<img height="200" alt="Motor control system screenshot" src="img/screen_1.png">
+<img height="200" alt="thermal printer system screenshot" src="img/screen_2.png">  
 
 ## PREPARE
 * MacBook Pro
@@ -35,4 +35,3 @@ Control of the LEDs and switching of the text output to the Thermal Printer was 
 ![stage](img/photo_0.jpg "stage photo")  
 ![stage2](img/photo_1.jpg "stage2 photo")  
 ![stage3](img/photo_2.jpg "stage3 photo") 
-
