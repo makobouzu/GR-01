@@ -16,8 +16,8 @@ The motor control and thermal printer control system used in the "Show all the b
   * Symcode 58MM
   * Thermal Roll Paper 20m 58*40mm
 * Motor Control
-  * STEP 400　Stepper Motor Driver
-  * 42mm 2.8V  Phase 400Step Stepper Motor
+  * STEP 400 Stepper Motor Driver
+  * 42mm 2.8V Phase 400Step Stepper Motor
 * LED 
   * M5Stack Basic
   * HEX RGB LED Board
