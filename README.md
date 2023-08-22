@@ -1,43 +1,38 @@
-# SEE-YU-LATER
-The video projection system used in the "SEE YU LATER".
+# GR-01
+The motor control and thermal printer control system used in the "Show all the back side of the beach house".
   
-![touchdesigner](readme-img/touchdesigner.png "system screenshot")  
-<img height="230" alt="max" src="readme-img/max.png">
-<img height="230" alt="ndi camera" src="readme-img/ndi-camera.png">  
+![max/msp](img/screen_0.png "Control system screenshot") 
+<img height="160" alt="Motor control system screenshot" src="img/screen_1.png">
+<img height="160" alt="thermal printer system screenshot" src="img/screen_2.png">  
 
 ## PREPARE
 * MacBook Pro
-  * TouchDesigner
+  * TouchDesigner 
   * Max/MSP
-* iPhone 14 Pro
-  * NDI HX CAMERA
-* KORG nanoKONTROL 2  
+* Controller
+  * Nintendo Switch Pro Controller
+  * JoyKeyMapper.app
+* Thermal Printer
+  * Symcode 58MM
+  * Thermal Roll Paper 20m 58*40mm
+* Motor Control
+  * STEP 400　Stepper Motor Driver
+  * 42mm 2.8V  Phase 400Step Stepper Motor
+* LED 
+  * M5Stack Basic
+  * HEX RGB LED Board
+* Battery
+  * Sanwa Direct Portable Power Supply AC65W output 11400mAh
+
 
 ## FUNCTION
-* Camera Wireless Connection (NDI Connection)
-* Video Effects
-  * Perlin 3D Noise
-  * Radial Blur
-  * Blur
-  * Light Tunnel
-  * Twirl
-  * Cache
-  * Slit Scan
-  * Bloom
-* Video Recording and Playback
-* Video Switching
-* Projection Calibration  
+* Thermal Printer / Motor / LED  Wireless Control
 
 ## CONTROL
-Video recording and playback and switching of video effects were controlled directly on the TouchDesigner screen. 
-A system that can be controlled from a MIDI controller was built in for switching and applying effects.  
+Control of the LEDs and switching of the text output to the Thermal Printer was done by max, and the Nintendo Switch Pro Controller was used to control the LEDs and the motor. 
 
 ## Stage
-![stage](readme-img/stage.jpg "stage photo")  
-![stage2](readme-img/stage2.jpg "stage2 photo")  
+![stage](img/photo_0.jpg "stage photo")  
+![stage2](img/photo_1.jpg "stage2 photo")  
+![stage3](img/photo_2.jpg "stage3 photo") 
 
-## Effects  
-<img height="250" alt="Perlin 3D Noise" src="readme-img/effects/1_noise.png"> <img height="250" alt="Radial Blur" src="readme-img/effects/2_radialblur.png">
-<img height="250" alt="Blur" src="readme-img/effects/3_blur.png"> <img height="250" alt="Tunnel" src="readme-img/effects/6_tunnel.png">
-<img height="250" alt="Twirl" src="readme-img/effects/4_twirl.png"> <img height="250" alt="Cache" src="readme-img/effects/5_cache.png">
-<img height="250" alt="Slit Scan" src="readme-img/effects/7_slitscan.png"> <img height="250" alt="Bloom" src="readme-img/effects/8_bloom.png">
